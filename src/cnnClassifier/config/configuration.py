@@ -8,6 +8,7 @@ from cnnClassifier.entity.config_entity import (DataIngestionConfig,
 
 
 class ConfigurationManager:
+    
     def __init__(
         self,
         config_filepath = CONFIG_FILE_PATH,
@@ -56,7 +57,7 @@ class ConfigurationManager:
     
     
     
-def get_prepare_callback_config(self) -> PrepareCallbacksConfig:
+    def get_prepare_callback_config(self) -> PrepareCallbacksConfig:
         config = self.config.prepare_callbacks
         model_ckpt_dir = os.path.dirname(config.checkpoint_model_filepath)
         create_directories([
