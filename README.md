@@ -91,7 +91,7 @@ open up you local host and port
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 784924766124.dkr.ecr.ap-south-1.amazonaws.com/brain-tumor
+    - Save the URI: 784924766124.dkr.ecr.ap-south-1.amazonaws.com/tumor-dect
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
